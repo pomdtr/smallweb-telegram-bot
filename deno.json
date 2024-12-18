@@ -1,0 +1,20 @@
+{
+    "name": "@pomdtr/smallweb-telegram-bot",
+    "version": "0.1.1",
+    "license": "MIT",
+    "exports": {
+        ".": "./pkg/mod.ts"
+    },
+    "publish": {
+        "include": [
+            "pkg",
+            "README.md"
+        ]
+    },
+    "imports": {
+        "@commander-js/extra-typings": "npm:@commander-js/extra-typings@^12.1.0",
+        "@std/fs": "jsr:@std/fs@^1.0.7",
+        "hono": "npm:hono@^4.6.14",
+        "shlex": "npm:shlex@^2.1.2"
+    }
+}
