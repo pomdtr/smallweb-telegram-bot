@@ -2,7 +2,6 @@
   "version": "4",
   "specifiers": {
     "jsr:@std/fs@1.0.6": "1.0.6",
-    "jsr:@std/fs@^1.0.7": "1.0.7",
     "jsr:@std/html@1.0.3": "1.0.3",
     "jsr:@std/http@1.0.12": "1.0.12",
     "jsr:@std/path@^1.0.8": "1.0.8",
@@ -17,12 +16,6 @@
   "jsr": {
     "@std/fs@1.0.6": {
       "integrity": "42b56e1e41b75583a21d5a37f6a6a27de9f510bcd36c0c85791d685ca0b85fa2",
-      "dependencies": [
-        "jsr:@std/path"
-      ]
-    },
-    "@std/fs@1.0.7": {
-      "integrity": "95ac7326e0e59089c979706e17bb28db03b5fb41c5a37c9c556788198b0662d6",
       "dependencies": [
         "jsr:@std/path"
       ]
@@ -68,7 +61,6 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@std/fs@^1.0.7",
       "npm:@commander-js/extra-typings@^12.1.0",
       "npm:hono@^4.6.14",
       "npm:shlex@^2.1.2"
